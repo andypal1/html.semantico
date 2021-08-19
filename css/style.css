@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(235, 243, 227);
+}
+header, main{
+    width: 90%;
+    max-width: 1400px;
+    margin-left: 3.5%;
+}
+header nav{
+background-color: rgb(10,150,53);
+overflow: hidden;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    float:left
+}
+header nav ul li a{
+    padding:10px 20px;
+    display: block;
+    color: ghostwhite;
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    background-color: rgb(236, 191, 191);
+    color: rgb(252, 19, 19);
+}
+section{
+    background-color: red;
+    width: 68.5%;
+    float:left;
+    margin: 1.5%;
+}
+
+}
+aside{
+    width: 22%;
+    float:left;
+    background-color: rgb(73, 1, 41);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 2%;
+    height:68vh;
+}
+aside h3{
+    text-align: center;
+    padding:10px;
+    color:whitesmoke;
+    background-color: red;
+    margin-left: 690px;
+}
+article{
+    padding:20px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+figure{
+    padding:30px;
+}
+footer{
+    background-color: rgb(61, 60, 56);
+    color: white;
+    clear:both;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.fondo1{
+    background-size: cover;
+    color: white;
+    lighting-color: red;
+    background-repeat: no-repeat;
+    background-image: url("../img/fondoauto.jpg");
+}
+.fondo1 h2{
+    font-style:italic;
+    background-color: whitesmoke;
+    background: size 80%;
+    font-size:x-large;
+    padding: 0px 0px 0px 10px;
+    color: rgb(240, 18, 10);
+}
